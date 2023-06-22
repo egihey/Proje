@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/langchain/__init__.py')
+sys.path.append('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages')
 from langchain import PromptTemplate
 
 import streamlit as st
