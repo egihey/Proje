@@ -1,3 +1,7 @@
+import sys
+sys.path.append('/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages')
+from langchain import PromptTemplate
+
 import streamlit as st
 from langchain import PromptTemplate
 from langchain.llms import OpenAI
